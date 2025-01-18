@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CategoryDAO {
-    private static final String DB_URL = "jdbc:mysql://sql12.freesqldatabase.com:3306/sql12758102"; // Sesuaikan dengan database Anda
-    private static final String DB_USERNAME = "sql12758102"; // Sesuaikan dengan username database Anda
-    private static final String DB_PASSWORD = "qQT7e5WgTD"; // Sesuaikan dengan password database Anda
+    private static final String URL = "jdbc:mysql://localhost:3306/sipuan";
+    private static final String USER = "root";
+    private static final String PASSWORD = "";
 
     private Connection connection;
 
