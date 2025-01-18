@@ -1,0 +1,3 @@
+# Sipuan - Sistem Informasi Pencatatan Keuangan
+
+**Sipuan** adalah sebuah sistem informasi berbasis Java yang dirancang untuk mempermudah dan meningkatkan efisiensi pencatatan keuangan harian. Sistem ini dikembangkan sebagai bagian dari tugas akhir mata kuliah Pemrograman Berorientasi Objek pada semester 3. Sipuan menggunakan antarmuka grafis yang ramah pengguna dan dikembangkan menggunakan NetBeans untuk mempermudah pengelolaan data keuangan. Dengan fitur-fitur yang mendukung pencatatan transaksi, laporan keuangan, serta pengelolaan data terkait, sistem ini diharapkan dapat menjadi solusi praktis dalam membantu pengguna memahami dan mengelola proses keuangan harian secara lebih terstruktur dan profesional.
