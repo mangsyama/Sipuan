@@ -80,25 +80,8 @@ CREATE TABLE `transactions` (
 --
 
 INSERT INTO `transactions` (`id`, `category`, `title`, `description`, `amount`, `date`, `transaction_type`) VALUES
-(52, 'Gaji', 'WEDDING', 'Wedding bali 2025', 5000000, '2025-01-02', 'Pendapatan'),
-(53, 'Makanan', 'Sarapan', 'Membeli sarapan pagi', 25000, '2025-01-01', 'Pengeluaran'),
-(55, 'Gaji', 'Gaji Mingguan', 'Gaji mingguan Januari', 1250000, '2025-01-02', 'Pendapatan'),
-(56, 'Makanan', 'Makan Siang', 'Makan siang di warung', 35000, '2025-01-03', 'Pengeluaran'),
-(57, 'Sewa Rumah', 'Sewa Bulan Januari', 'Pembayaran sewa rumah bulan Januari', 1500000, '2025-01-05', 'Pengeluaran'),
-(58, 'Tagihan Listrik', 'Bayar Listrik', 'Pembayaran listrik bulan Desember', 200000, '2025-01-10', 'Pengeluaran'),
-(59, 'Bonus', 'Bonus Tahunan', 'Bonus akhir tahun dari perusahaan', 4555555, '2025-01-15', 'Pendapatan'),
-(60, 'Rekreasi', 'Liburan', 'Liburan ke Bali', 200000, '2025-01-20', 'Pengeluaran'),
-(61, 'Kesehatan', 'Check-Up', 'Check-up kesehatan rutin', 250000, '2025-01-08', 'Pengeluaran'),
-(62, 'Pendidikan', 'Buku Sekolah', 'Membeli buku pelajaran anak', 150000, '2025-01-12', 'Pengeluaran'),
-(64, 'Investasi', 'Investasi Saham', 'Investasi pada saham perusahaan', 100000, '2025-01-25', 'Pengeluaran'),
-(66, 'Belanja Online', 'Belanja di Marketplace', 'Membeli keperluan sehari-hari secara online', 500000, '2025-01-02', 'Pengeluaran'),
-(67, 'Sewa Properti', 'Sewa Kios', 'Pendapatan dari sewa kios', 2000000, '2025-01-06', 'Pendapatan'),
-(68, 'Makanan', 'Makan Malam', 'Makan malam di restoran', 75000, '2025-01-07', 'Pengeluaran'),
-(69, 'Transportasi', 'Isi Bensin', 'Pengisian bensin motor', 50000, '2025-01-08', 'Pengeluaran'),
-(70, 'Kesehatan', 'Obat', 'Membeli obat di apotek', 100000, '2025-01-09', 'Pengeluaran'),
-(71, 'Bonus', 'Kerjo', 'bonus kerjo', 100000, '2025-01-31', 'Pendapatan'),
-(72, 'Pendapatan Sampingan', 'Trading', 'Profit', 5000000, '2025-01-01', 'Pendapatan'),
-(73, 'Pemasukan Lainnya', 'Jual', 'saham', 2000000, '2025-01-06', 'Pendapatan');
+(75, 'Gaji', 'Kerja', 'Bulanan', 10000000, '2025-01-01', 'Pendapatan'),
+(76, 'Makanan', 'Makanan', 'Biaya pokok bulanan', 5000000, '2025-01-01', 'Pengeluaran');
 
 -- --------------------------------------------------------
 
@@ -120,11 +103,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `created_at`) VALUES
 (1, 'admin', '123456', 'admin@gmail.com', '2024-12-01 03:00:24'),
-(2, 'admin', 'admin', 'admin', '2024-12-01 03:25:02'),
-(3, 'syama', 'syama', 'syama', '2024-12-01 04:11:08'),
-(4, 'mang', 'mang', 'mang', '2024-12-01 04:31:51'),
-(5, 'komang', 'komang', 'komang@gmail.com', '2024-12-22 01:21:27'),
-(6, 'mamang', 'mamang', 'mamang@gmail.com', '2024-12-22 01:30:31');
+(2, 'admin', 'admin', 'admin', '2024-12-01 03:25:02');
 
 --
 -- Indexes for dumped tables
