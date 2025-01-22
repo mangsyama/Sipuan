@@ -25,7 +25,7 @@
 Berikut ini adalah requirements yang digunakan pada saat development Sipuan
 - Apache NetBeans IDE 22
 - JDK 22 (Digunakan Secara Default)
-- Database menggunakan phpmyadmin yang sudah saya sediakan pada repository dengan nama `sipuan.sql`
+- Database dapat menggunakan phpmyadmin yang sudah tersedia pada folder `add-on file/database` 
 - Library yang digunakan pada Sipuan tersedia pada folder `add-on file/lib`
 
 # Login User
